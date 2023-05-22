@@ -10,5 +10,5 @@ def generateFormations(num):
             print(str(i) + ' x ' + str(rows))
             drawFormation(i,rows)
 
-participants = int(input("Enter number of participants:"))
+participants = int(input("Enter number of participants:  "))
 generateFormations(participants)
